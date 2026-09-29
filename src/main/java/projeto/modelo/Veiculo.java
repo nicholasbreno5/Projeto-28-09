@@ -31,6 +31,6 @@ public class Veiculo {
 
     @Override
     public String toString() {
-        return "Veiculo Marca = " + marca + "/ Modelo = " + modelo;
+        return "Veiculo Marca = " + marca + " / Modelo = " + modelo;
     }
 }
