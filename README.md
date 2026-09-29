@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Projeto GitHub Equipe - Veiculos
 
 ## Veiculos
 
@@ -13,8 +13,8 @@ Nome: Luiz Felipe Rabelo França
 
 ## Hierarquia
 
-Veiculo
-├── Carro
+Veiculo<br>
+├── Carro<br>
 └── Moto
 
 ## Descrição
