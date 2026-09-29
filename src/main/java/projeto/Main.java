@@ -1,8 +1,14 @@
 package projeto;
+import java.util.ArrayList;
+import java.util.List;
+
+import projeto.modelo.Carro;
+import projeto.modelo.Moto;
+import projeto.modelo.Veiculo;
 
 public class Main {
     public static void main(String[] args) {
-        List<Veiculo> frota - new ArrayList<>();
+        List<Veiculo> frota = new ArrayList<>();
 
         frota.add(new Carro("Toyota", "Corolla", 4));
         frota.add(new Carro("Honda", "Civic", 4));
