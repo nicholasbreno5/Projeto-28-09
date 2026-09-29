@@ -4,7 +4,7 @@ public class Carro extends Veiculo {
     private int quantidadePortas;
 
     public Carro(String marca, String modelo, int quantidadePortas) {
-        Veiculo(marca, modelo);
+        super(marca, modelo);
         this.quantidadePortas = quantidadePortas;
     }
 
@@ -23,6 +23,6 @@ public class Carro extends Veiculo {
 
     @Override
     public String toString() {
-        return Veiculo.toString() + " - Portas: " + quantidadePortas;
+        return super.toString() + " - Portas: " + quantidadePortas;
     }
 }

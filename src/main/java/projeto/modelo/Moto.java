@@ -1,8 +1,10 @@
+package projeto.modelo;
+
 public class Moto extends Veiculo{
     private int cilindradas;
 
     public Moto(String marca, String modelo, int cilindradas){
-        Veiculo(marca, modelo);
+        super(marca, modelo);
         this.cilindradas = cilindradas;
     }
 
@@ -21,7 +23,7 @@ public class Moto extends Veiculo{
 
     @Override
     public String toString() {
-        return Veiculo.toString() + " - Cilindradas: " + cilindradas + "cc";
+        return super.toString() + " - Cilindradas: " + cilindradas + "cc";
     }
 
 }
